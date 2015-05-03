@@ -1,6 +1,6 @@
 #!/bin/bash
 
-readonly IMAGE="progrium/consul"
+readonly IMAGE="quay.io/hoist/consul"
 readonly EXPECT="${EXPECT:-3}"
 
 cmd-run() {
